@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+<link rel="stylesheet" href="./index.css">
+  </head>
+  <body class="container">
+<h1 id="banner">BACKEND ASSESSMENT Week-5</h1>
+
+    <br>
+<br>
+<br>
+
+<h4>---------------------------------------------------------------------------------------------------------</h4>    
+    
+  <button class = 'button' id="complimentButton">Get a compliment</button>
+  </div>
+  <br>
+<button class = 'button' id="fortuneButton">Click for fortune</button>
+</div>
+<br>
+<button class = 'button' id="fortuneComplimentButton">Fortune + Compliment</button>
+</div>
+<h4>---------------------------------------------------------------------------------------------------------</h4>
+ <form>
+  <h1>Add fortune</h1>
+  <br>
+  <input id ="addFortune" type="text"><br><br>
+  <input class = 'button' id = "newFortune" type="submit" value="Add">
+
+
+<br>
+  
+  <h1>Add compliment</h1>
+  <br>
+  <input id ="addCompliment" type="text"><br><br>
+  <input class = 'button' id = "newCompliment" type="submit" value="Add">
+</form>
+
+<br>
+<div id="response-window">
+  <div id="response-header">Server Response</div>
+  <h4>----------------------------------------------------------------------------------------------------------------</h4>
+
+  <div id="response-content"></div>
+</div>
+<br>
+ <h4>---------------------------------------------------------------------------------------------------------</h4>
+ 
+  
+  <form>
+  <h1>Delete fortune</h1>
+  <br>
+  <label>Index Number</label>
+  <br>
+  <input id= "deleteFortuneIndex" type="number"><br><br>
+  <input class = 'button' id = "deleteFortune" type="submit" value="Delete">
+
+<br>
+<br>
+<h1>Delete compliment</h1>
+<br>
+<label>Index Number</label>
+<br>
+<input id= "deleteComplimentIndex" type="number"><br><br>
+<input class = 'button' id = "deleteCompliment" type="submit" value="Delete">
+</form>
+<br>
+<br>
+
+<h4>---------------------------------------------------------------------------------------------------------</h4>
+
+<form>
+  <h1 for="fname">Edit fortune</h1>
+  <br>
+  <label>Index Number</label>
+  <input id = "editIndex" type="number"><br><br>
+  <label>Write new fortune</label>
+  <input type="text"><br><br>
+  <input class = 'button' id = "editFortune" type="submit" value="Add edits">
+</form>
+
+
+<br>
+<br>
+<br>
+
+
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
